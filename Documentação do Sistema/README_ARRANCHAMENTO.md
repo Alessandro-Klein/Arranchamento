@@ -1,5 +1,5 @@
 
-# Sistema de Agendamento de Arranchamento
+# Sistema  Arranchamento
 
 Este projeto é um sistema web completo para **agendamento e controle de arranchamento (refeições militares)**. Ele permite aos usuários e administradores cadastrar, consultar e cancelar refeições (Café da manhã, Almoço, Jantar) em datas específicas, com funcionalidades visuais modernas, segurança reforçada e controle de duplicidade.
 
