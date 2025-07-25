@@ -1,0 +1,46 @@
+ body {
+            background: linear-gradient(135deg, #003366, #0055aa);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .login-box {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+            animation: fadeIn 1s ease;
+        }
+        .login-box h2 {
+            margin-bottom: 30px;
+            color: #003366;
+            font-weight: bold;
+        }
+        .form-control {
+            border-radius: 8px;
+        }
+        .btn-primary {
+            border-radius: 8px;
+            background-color: #0055aa;
+        }
+        .btn-primary:hover {
+            background-color: #004080;
+        }
+        .rodape {
+            margin-top: 20px;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+        }
+        .rodape a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }

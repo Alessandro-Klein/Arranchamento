@@ -1,0 +1,6 @@
+ body { background: #f4f6f9; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        h2, h4 { color: #003366; }
+        .badge-admin { background-color: #d9534f; }
+        .badge-gerente { background-color: #f0ad4e; }
+        .badge-usuario { background-color: #5bc0de; }

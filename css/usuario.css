@@ -1,0 +1,30 @@
+body {
+            background-image: url('../img/eb1.jpg'); /* caminho para sua imagem */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+        }
+
+        .container {
+            margin-top: 100px;
+            background: rgba(255, 255, 255, 0.95); /* fundo branco transparente */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+
+        .btn-custom {
+            background: #003366;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }

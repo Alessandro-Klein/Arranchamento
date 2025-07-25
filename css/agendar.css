@@ -1,0 +1,38 @@
+.dropdown-checkbox {
+        position: relative;
+        cursor: pointer;
+        background-color: #f8f9fa;
+        padding: 12px 15px;
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .dropdown-checkbox:hover {
+        background-color: #e9ecef;
+    }
+
+    .dropdown-label {
+        font-weight: 500;
+        color: #495057;
+    }
+
+    .dropdown-options {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .dropdown-checkbox.active .dropdown-options {
+        display: block;
+    }
+
+    .dropdown-options label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 400;
+        color: #212529;
+    }
+
+    .dropdown-options input[type="checkbox"] {
+        margin-right: 8px;
+    }

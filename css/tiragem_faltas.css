@@ -1,0 +1,12 @@
+   body { background-color: #f8f9fa; }
+        h2 { font-weight: bold; }
+        .summary-box, .form-section {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.06);
+        }
+        .table th, .table td { vertical-align: middle; }
+        .table thead th { background-color: #212529; color: #fff; }
+        .btn i { margin-right: 5px; }
+        #searchInput { box-shadow: 0 0 6px rgba(0,0,0,0.05); }

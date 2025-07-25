@@ -1,0 +1,13 @@
+ body {
+        background-image: url('../img/eb3.jpg'); /* ou fundo.jpg */
+        background-size: cover; /* cobre toda a tela */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.95); /* fundo branco semi-transparente */
+        border-radius: 10px;
+    }
+
